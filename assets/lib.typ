@@ -130,7 +130,7 @@
   ) = {
     let items = (
         __contact_item(pronouns),
-        __contact_item(phone),
+        __contact_item(phone, link-type: "tel:"),
         __contact_item(address),
         __contact_item(email1, link-type: "mailto:"),
         __contact_item(email2, link-type: "mailto:"),
