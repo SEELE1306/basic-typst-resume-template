@@ -34,12 +34,15 @@
   }
 }
 
-// Cannot just use normal --- ligature becuase ligatures are disabled for good reasons
 #let __dates_helper(
   start-date: "",
   end-date: "",
 ) = {
-  start-date + " " + $dash.em$ + " " + end-date
+  if start-date == "" {
+    end-date
+  } else {
+    start-date + " " + sym.dash.em + " " + end-date
+  }
 }
 
 
