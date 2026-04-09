@@ -82,17 +82,15 @@ Your profile picture should be placed inside `/assets/images`. The path to the i
 - Notendurchschnitt: 1,7 | Deutschlandstipendium 2023, 2024, 2025
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-#resume-education(
-  institution: "Fachhochschule Musterstadt",
-  location: "Musterstadt, Deutschland",
-  dates: __dates_helper(start-date: "10.2021", end-date: "07.2022"),
-  degree: "Studienkolleg für Studierende der Ingenieurswissenschaft",
-
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  consistent: true
-)
-- Notendurchschnitt: 1,3 | Stipendium der Hochschule im 12.2022
-- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
 // Other sections in resume.typ
+```
+
+You can then render your Typst project into a PDF file either by using the `Tinymist Typst` and `vscode-pdf` extensions in VS Code, or in the terminal:
+
+```typst
+// Render Typst project to a PDF
+typst compile ./template/resume.typ my-resume.pdf
+
+// Render Typst project to a PNG
+typst compile --format png ./template/resume.typ my-resume.png
 ```
