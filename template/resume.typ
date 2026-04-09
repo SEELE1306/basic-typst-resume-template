@@ -3,7 +3,7 @@
 
 // Put your personal information here, replacing mine
 #let name = "Max Mustermann"
-#let address = "1 Musterstraße, 12345 Musterstadt, Deutschland"
+#let address = "Musterstraße 1, 12345 Musterstadt, Deutschland"
 #let email1 = "max.mustermann@gmail.com"
 #let email2 = "max.mustermann@uni-ms.de"
 #let github = "github.com/maxmsm"
