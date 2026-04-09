@@ -1,10 +1,10 @@
 # Basic Resume
 
-<div align="center">Version 0.3.1</div>
+### Current version: `v0.3.2`
 
 > **From the original repo:** This is a template for a simple resume. It is intended to be used as a good starting point for quickly crafting a standard resume that will properly be parsed by ATS systems. Inspiration is taken from [Jake's Resume](https://github.com/jakegut/resume) and [guided-resume-starter-cgc](https://typst.app/universe/package/guided-resume-starter-cgc/). I'm currently a college student and was unable to find a Typst resume template that fit my needs, so I wrote my own. I hope this template can be useful to others as well.
 
-Changes from the original repo (as of v0.3.1):
+Changes from the original repo (as of v0.3.2):
 - Adds the ability to include a profile picture in the resume, which is essential for resumes (DE: Lebenslauf) in Germany. 
 - All helper functions are also moved to the corresponding `lib.typ` file, as they might be useful if a cover letter is to be designed.
 
