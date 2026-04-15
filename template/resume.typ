@@ -51,7 +51,7 @@
 #resume-education(
   institution: "Universität Musterstadt",
   location: "Musterstadt, Deutschland",
-  dates: __dates_helper(start-date: "10.2022", end-date: "präsenz"),
+  dates: __dates_helper(start-date: "10.2022", end-date: "aktuell"),
   degree: "B.Sc. Elektrotechnik",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
@@ -78,7 +78,7 @@
   title: "Werkstudent Programmierung und Qualitätskontrolle",
   location: "Musterstadt, Deutschland",
   company: "Musterunternehmen GmbH",
-  dates: __dates_helper(start-date: "03.2024", end-date: "präsenz"),
+  dates: __dates_helper(start-date: "03.2024", end-date: "aktuell"),
 )
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 

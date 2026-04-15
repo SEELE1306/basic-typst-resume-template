@@ -95,7 +95,7 @@
   // Small caps for section titles
   show heading.where(level: 2): it => [
     #pad(top: 0pt, bottom: -10pt, [#smallcaps(it.body)])
-    #line(length: 100%, stroke: 1pt)
+    #line(length: 100%, stroke: 1pt + rgb(accent-color))
   ]
 
   // Accent Color Styling
@@ -144,7 +144,8 @@
   let profile(profile-picture: "") = {
     block(
       clip: true,
-      stroke: 1pt,
+      inset: 2pt,
+      stroke: 1pt + rgb(accent-color),
       width: 100pt,
       height: 100pt,
       profile-picture,
