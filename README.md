@@ -1,6 +1,6 @@
 # Basic Resume
 
-### Current version: `v0.3.2`
+### Current version: `v0.3.3`
 
 > **From the original repo:** This is a template for a simple resume. It is intended to be used as a good starting point for quickly crafting a standard resume that will properly be parsed by ATS systems. Inspiration is taken from [Jake's Resume](https://github.com/jakegut/resume) and [guided-resume-starter-cgc](https://typst.app/universe/package/guided-resume-starter-cgc/). I'm currently a college student and was unable to find a Typst resume template that fit my needs, so I wrote my own. I hope this template can be useful to others as well.
 
@@ -92,5 +92,5 @@ You can then render your Typst project into a PDF file either by using the `Tiny
 typst compile ./template/resume.typ my-resume.pdf
 
 // Render Typst project to a PNG
-typst compile --format png ./template/resume.typ my-resume.png
+typst compile --format png --root ./ ./template/resume.typ my-resume.png
 ```
